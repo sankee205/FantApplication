@@ -7,8 +7,8 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
-    //private static String localhost = "192.168.1.102";
-    private static  String localhost = "10.24.88.100";
+    private static String localhost = "192.168.1.102";
+    //private static  String localhost = "10.24.88.100";
     //private static  String localhost = "10.0.0.21";
     private static String baseUrl = "http://" + localhost + ":8080/fant/api/";
 
